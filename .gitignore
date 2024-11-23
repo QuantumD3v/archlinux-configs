@@ -2,7 +2,6 @@
 !.zshrc
 !.install_updates.sh
 !.zsh_aliases
-
 # Configs
 !.config
 !.config/**  # Include all files within the .config directory
