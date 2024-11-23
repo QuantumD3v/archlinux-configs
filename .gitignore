@@ -7,3 +7,5 @@
 !.config/**  # Include all files within the .config directory
 !.config/kdedefaults
 !.config/kdedefaults/**
+!.config/alacritty
+!.config/alacritty/**

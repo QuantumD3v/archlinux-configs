@@ -1,3 +1,7 @@
 alias playground='cd ~/Developer/playground'
 alias v='nvim'
 alias ff='clear && neofetch'
+alias rl='source ~/.zshrc'
+alias omp='oh-my-posh'
+alias zshedit='v ~/.zshrc'
+alias zshaliasedit='v ~/.zsh_aliases'
