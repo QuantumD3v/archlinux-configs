@@ -2,8 +2,9 @@
 !.zshrc
 !.install_updates.sh
 !.zsh_aliases
-!.gitignore
 
 # Configs
 !.config
-!.config/**  # This allows all files inside the .config directory
+!.config/**  # Include all files within the .config directory
+!.config/kdedefaults
+!.config/kdedefaults/**
