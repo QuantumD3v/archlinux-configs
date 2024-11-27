@@ -1,5 +1,7 @@
 # archlinux-configs
 
+**From 27 Nov 2024. No commit message will be applied because i used zsh alias to push and update this repo**
+
 **Project Status : Continued**
 
 A collection of configuration files and scripts tailored for Arch Linux setups. This repository is designed to streamline system customization and provide reusable configs for efficient system management.
