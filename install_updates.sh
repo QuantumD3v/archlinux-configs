@@ -1,11 +1,11 @@
 # /bin/zsh
 
-# sudo pacman-mirrors -f 5
+sudo pacman-mirrors -fasttrack 20
 
 # installing Dependencies, Apps and Upgrading System
-sudo pacman -S archlinux-keyring pamac-cli
-sudo pacman -S git curl base-devel gcc cpio cmake make btop fakeroot doas wine pkgconf automake autoconf boost openssl curl neovim clang code go zoxide github-cli tailscale flatpak unzip alacritty
-sudo pacman -Sudd
+sudo pacman -Sv linux613 linux613-headers archlinux-keyring pamac-cli
+sudo pacman -Sv git curl base-devel gcc cpio cmake make btop fakeroot doas wine pkgconf automake autoconf boost openssl curl neovim clang code go zoxide github-cli tailscale flatpak unzip alacritty
+sudo pacman -Svudd
 
 # Build and Install yay
 git clone https://aur.archlinux.org/yay.git
