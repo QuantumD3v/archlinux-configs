@@ -26,4 +26,4 @@ flatpak install org.prismlauncher.PrismLauncher org.fkoehler.KTailctl
 # Install oh-my-posh and themes
 curl -s https://ohmyposh.dev/install.sh | bash -s
 mkdir ~/.config/oh-my-posh/
-wget ~/.config/oh-my-posh/kushal.omp.json https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/kushal.omp.json
+wget -O ~/.config/oh-my-posh/ https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/kushal.omp.json
